@@ -1,3 +1,3 @@
-#Codificación y Pruenas en JAVA del Programa HOLA MUNDO
+Codificación y Pruenas en JAVA del Programa HOLA MUNDO
 
 
