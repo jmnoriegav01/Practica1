@@ -1,5 +1,5 @@
-#Autor: José María Noriega Vazquez
+Autor: José María Noriega Vazquez
 
-#emai: jmnoriegav01@iescastelar.com
+E-mail corporativo: jmnoriegav01@iescastelar.com
 
 
