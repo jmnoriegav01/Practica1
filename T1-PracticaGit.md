@@ -1,1 +1,1 @@
-!(captura) img/Clonar.png
+![Captura de Pantalla](img/Captura.png)
