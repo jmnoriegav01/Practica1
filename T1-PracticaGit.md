@@ -1,1 +1,1 @@
-!(captura) img/Captura.png
+!(captura) /img/Clonar.png
