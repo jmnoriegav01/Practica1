@@ -18,6 +18,10 @@ Las dudas las he resuelto en clase, y la práctica la he realizado con el ordena
 ## 6. ¿Quién lo ha hecho?
 Un servidor, Jose María Noriega
 ## 7. ¿Cuándo se ha hecho?
-
+He tardado un par de dias, en cuanto he podido resolver las dudas que tenía, mirando sobre
+todos vídeos y algo de documentación, al principio no me enteraba muy bien, pero recurrí
+a youtube el fin de semana y me ha dado bastante resultado, todavía tengo algunas dudas
+que espero que con el tiempo y la práctica poder resolverlas.
+Por lo general bien, no me ha resultado difícil, es cuestión de dedicarle más tiempo.
 
 
