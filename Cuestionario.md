@@ -10,7 +10,7 @@ La Práctica 1 consiste en crear un Repositorio vacío en mi caso Practica1, el 
 ## 2. ¿Con qué lo vamos a hacer?
 Con la aplicación de git
 ## 3. ¿Cómo se ha hecho?
-
+Para aprender y practicar Git
 ## 4. ¿Para qué se ha hecho?
 Para practicar como se crean repositorios y se añaden carpetas y ficheros
 ## 5. ¿Donde se ha hecho?
