@@ -1,3 +1,5 @@
-#Codificación y Pruenas en JAVA del Programa HOLA MUNDO
+Autor: José María Noriega Vazquez
 
+E-mail corporativo: jmnoriegav01@iescastelar.com
 
+Modulo: Programación
