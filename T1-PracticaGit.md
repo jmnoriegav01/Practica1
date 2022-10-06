@@ -1,1 +1,1 @@
-![Captura de Pantalla](img/Captura.png)
+![Captura de Pantalla](/img/Captura.png)
