@@ -8,10 +8,16 @@ La Práctica 1 consiste en crear un Repositorio vacío en mi caso Practica1, el 
 - T1-PracticaGit1.md 
 - y un fichero de preguntas llamado Cuestionario.
 ## 2. ¿Con qué lo vamos a hacer?
+Con la aplicación de git
 ## 3. ¿Cómo se ha hecho?
+
 ## 4. ¿Para qué se ha hecho?
+Para practicar como se crean repositorios y se añaden carpetas y ficheros
 ## 5. ¿Donde se ha hecho?
+Las dudas las he resuelto en clase, y la práctica la he realizado con el ordenador de casa
 ## 6. ¿Quién lo ha hecho?
+Un servidor, Jose María Noriega
 ## 7. ¿Cuándo se ha hecho?
+
 
 
