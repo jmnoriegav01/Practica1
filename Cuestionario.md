@@ -1,3 +1,11 @@
+
+## Evaluación:
+
+Respecto a la tarea, *creo* que está todo correcto, pero no puedo verificarlo por lo desordenado de tu repositorio. Te pongo una nota provisional de 5 y te lo corrijo el lunes de nuevo. Si sigue así te quedas con el 5. 
+
+Nota **provisional**: 5
+
+
 # Cuestionario de Preguntas
 ## 1. ¿Qué vamos a hacer?
 La Práctica 1 consiste en crear un Repositorio vacío en mi caso Practica1, el contenido del Repositorio va a contener:
