@@ -9,7 +9,7 @@ Con el editor de texto notepad++
 ## 3. ¿Cómo se ha hecho?
 Implementando la Clase Hola Mundo en JAVA
 ## 4. ¿Para qué se ha hecho?
-Para crear nuestro primer programa en JABA
+Para crear nuestro primer programa en JAVA
 ## 5. ¿Donde se ha hecho?
 Las dudas las he resuelto en clase, y la práctica la he realizado con el ordenador de casa
 ## 6. ¿Quién lo ha hecho?
