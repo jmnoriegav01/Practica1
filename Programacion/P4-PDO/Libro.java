@@ -50,14 +50,23 @@ class Libro {
 			return false;
 		}
 		else{
-			this.NumeroEjemplaresPrestados--;
+			this.NumeroEjemplaresPrestados++;
 			return true;
 		}
 	}
 	
 	@Override
 	public String toString() {
-		return "Libro [Titulo] = " + Titulo + " [Autor] = " + Autor  + "[Numero de Ejemplares Libros] = " + NumeroEjemplaresLibros + "[Numero Ejemplares Prestados] = " + NumeroEjemplaresPrestados;
+		
+		String cadena;
+		
+		cadena = "Datos del libro\n";
+		cadena+= "---------------\n\n";
+		cadena+= "Titulo del libro: " + this.Titulo + "\n";
+		cadena+= "Autor: " + this.Autor + "\n";
+		cadena+= "Numero de Ejemplares: " + this.NumeroEjemplaresLibros + "\n\n";
+
+		return cadena;
 	}
 }
 	

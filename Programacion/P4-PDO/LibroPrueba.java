@@ -10,41 +10,15 @@ public class LibroPrueba {
 		l.setNumeroEjemplaresLibros(3);
 		l.setNumeroEjemplaresPrestados(4);
 		
-		System.out.print(l.toString() + "\n");
-		
-		System.out.print("Datos del Libro\n");
-		System.out.print("---------------\n");
-		System.out.print("Título del libro: " + l.getTitulo() + "\n");
-		System.out.print("Autor: " + l.getAutor() + "\n\n");
 		
 		System.out.print("Prestamos\n");
-		System.out.print("---------\n");
-		
-		if(l.Prestamo()){
-			cadena = l.getTitulo() + " se ha prestado ";
-			cadena+= l.getNumeroEjemplaresPrestados() + "/" + l.getNumeroEjemplaresLibros();
-			
-			System.out.print(cadena);
-		}
-		else{
-			System.out.print(l.getTitulo() + " no esta disponible\n");
-		}
+		System.out.print("-----------\n\n");
+		System.out.print(l.toString());
 		
 		
 		if(l.Prestamo()){
 			cadena = l.getTitulo() + " se ha prestado ";
-			cadena+= l.getNumeroEjemplaresPrestados() + "/" + l.numeroEjemplaresLibros();
-			
-			System.out.print(cadena);
-		}
-		else{
-			System.out.print(l.getTitulo() + " no esta disponible\n");
-		}
-		
-		
-		if(l.Prestamo()){
-			cadena = l.getTitulo() + " se ha prestado ";
-			cadena+= l.getNumeroEjemplaresPrestados() + "/" + l.numeroEjemplaresLibros();
+			cadena+= l.getNumeroEjemplaresPrestados() + "/" + l.getNumeroEjemplaresLibros() + "\n";
 			
 			System.out.print(cadena);
 		}
@@ -54,34 +28,48 @@ public class LibroPrueba {
 		
 		if(l.Prestamo()){
 			cadena = l.getTitulo() + " se ha prestado ";
-			cadena+= l.getNumeroEjemplaresPrestados() + "/" + l.numeroEjemplaresLibros();
+			cadena+= l.getNumeroEjemplaresPrestados() + "/" + l.getNumeroEjemplaresLibros() + "\n";
 			
 			System.out.print(cadena);
-			
 		}
 		else{
 			System.out.print(l.getTitulo() + " no esta disponible\n");
 		}
 		
-		l.setTitulo("El Nombre de la Rosa");
-		l.setAutor("Umberto Eco");
-		l.setNumeroEjemplaresLibros(2);
-		l.setNumeroEjemplaresPrestados(1);
+		if(l.Prestamo()){
+			cadena = l.getTitulo() + " se ha prestado ";
+			cadena+= l.getNumeroEjemplaresPrestados() + "/" + l.getNumeroEjemplaresLibros() + "\n";
+			
+			System.out.print(cadena);
+		}
+		else{
+			System.out.print(l.getTitulo() + " no esta disponible\n");
+		}
+		
+		Libro l2 = new Libro();
+				
+		l2.setTitulo("El Nombre de la Rosa");
+		l2.setAutor("Umberto Eco");
+		l2.setNumeroEjemplaresLibros(2);
+		l2.setNumeroEjemplaresPrestados(1);
 		
 		System.out.print("\nDevoluciones\n");
-		System.out.print("------------\n\n");
+		System.out.print("--------------\n\n");
+		System.out.print(l2.toString());
 		
-		System.out.print("Datos del Libro\n");
-		System.out.print("---------------\n");
-		System.out.print("Título del libro: " + l.getTitulo() + "\n");
-		System.out.print("Autor: " + l.getAutor() + "\n\n");
-		
-		if(l.Devolucion()){
-			System.out.print(l.getTitulo() + " se ha devuelto correctamente\n");
+				
+		if(l2.Devolucion()){
+			cadena = l2.getTitulo() + " se ha devuelto ";
+			cadena+= l2.getNumeroEjemplaresPrestados() + "/" + l2.getNumeroEjemplaresLibros() + "\n";
+			
+			System.out.print(cadena);
+			
 		}
 		else{
-			System.out.print(l.getTitulo() + "  esta disponible\n");
+			System.out.print(l2.getTitulo() + "esta disponible\n");
 		}
+		
+				
 		
 		
 	}
