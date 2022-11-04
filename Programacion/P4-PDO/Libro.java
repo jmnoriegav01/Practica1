@@ -46,11 +46,11 @@ class Libro {
 	}
 	
 	public boolean Devolucion(){
-		if(this.NumeroEjemplaresPrestados > this.NumeroEjemplaresLibros){
+		if(this.NumeroEjemplaresLibros > this.NumeroEjemplaresPrestados) {
 			return false;
 		}
 		else{
-			this.NumeroEjemplaresPrestados++;
+			this.NumeroEjemplaresPrestados--;
 			return true;
 		}
 	}
