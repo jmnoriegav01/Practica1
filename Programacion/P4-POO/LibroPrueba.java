@@ -48,7 +48,7 @@ public class LibroPrueba {
 				
 		l2.setTitulo("El Nombre de la Rosa");
 		l2.setAutor("Umberto Eco");
-		l2.setNumeroEjemplaresLibros(2);
+		l2.setNumeroEjemplaresLibros(4);
 		l2.setNumeroEjemplaresPrestados(2);
 		
 		System.out.print("\nDevoluciones\n");
