@@ -75,7 +75,7 @@ public class LibroPrueba {
 			
 		}
 		else{
-			System.out.print(l2.getTitulo() + " esta disponible\n");
+			System.out.print(l2.getTitulo() + " disponemos de todos sus ejemplares\n");
 		}
 		
 		Libro l3 = new Libro("Luces de Bohemia",3);
