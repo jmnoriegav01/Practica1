@@ -2,14 +2,14 @@
 
 Realización de Préstamos y Devoluciones de libros una biblioteca partiendo de la clase libros
 
-# Devoluciones 
+## Devoluciones 
 ![Devoluciones](./img/Devoluciones.png)
 
-# Préstamos
+## Préstamos
 ![Préstamos](./img/Prestamos.png)
 
-# Ejemplo del método toString()
-![Ejemplo del método toString()](./img/Datos.png)
+## Ejemplo del método toString()
+![Ejemplo del método toString()](./img/DatosLibro.png)
 
 # Cuestionario de Preguntas
 
