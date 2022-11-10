@@ -16,4 +16,7 @@ SELECT MAX(num_books_read) FROM family_members;
 
 SELECT MAX(height_cm), species FROM friends_of_pickles GROUP BY species
 
+SELECT * FROM family_members WHERE num_books_read = (SELECT MAX(num_books_read) FROM family_members);
 
+SELECT * FROM family_members WHERE favorite_book IS NOT NULL
+SELECT * FROM celebs_born WHERE birthdate > '1980-11-1'

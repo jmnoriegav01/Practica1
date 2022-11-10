@@ -1,29 +1,22 @@
 import java.util.Scanner;
+import java.io.*;
+import java.lang.*;
 
 class Main {
 	public static void main(String[] args) {
 		
-		Scanner teclado = new Scanner(System.in);
-		String cadena;
-		int cuantosArboles;
-		int i;
-		int dato;
-		
-		System.out.println("Cuantos arboles quieres");
-		cuantosArboles = teclado.nextInt();
-		
-		for(i=0;i<cuantosArboles;i++){
-			System.out.println("Introduce el Arbol Numero " + (i+1));
-			cadena = teclado.next();
-			String[] resultadoSplit = cadena.split(",");
- 
-			for (String item : resultadoSplit) {
-				
-				System.out.println(item);
-			}
-			
+		String teclado = "1 2 3 4 5 6 7";
+		int j;
+     
+        Scanner cadena = new Scanner(teclado);
+  
+		for(j=0;j<=cadena.length();j++){
+			char result = cadena.charAt(j);
+			System.out.println(result);	
 		}
-		
+ 
+       
+        cadena.close();
 		
 	}
 
