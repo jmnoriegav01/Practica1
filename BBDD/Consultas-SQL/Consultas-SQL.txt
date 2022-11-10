@@ -1,0 +1,19 @@
+select * from family_members
+select name,species from family_members
+select * from family_members where species="dog"
+select * from family_members where num_books_read > 190
+select * from family_members where num_books_read >= 180
+select * from friends_of_pickles where species="dog" or height_cm < 45
+select * from friends_of_pickles where species="human"
+select distinct species from friends_of_pickles where height_cm>50
+select * from friends_of_pickles order  by height_cm desc
+
+SELECT COUNT(*) FROM friends_of_pickles;
+SELECT COUNT(*) FROM friends_of_pickles WHERE species = 'dog'
+SELECT SUM(num_books_read) FROM family_members
+SELECT AVG(num_books_read) FROM family_members
+SELECT MAX(num_books_read) FROM family_members;
+
+SELECT MAX(height_cm), species FROM friends_of_pickles GROUP BY species
+
+

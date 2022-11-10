@@ -1,28 +1,36 @@
-class Arbol {
-	private String Entrada;
-	private Integer Dato;
-	private Integer NodoIzquierdo;
-	private Integer NodoDerecho;
-	private Integer Niveles;
-	private Integer Salida;
-	
-	Arbol(String Entrada){
-		this.Entrada = Entrada;
-	}
-	
-	
-	public void setHijos() {
+class nodoArbol {
+	private int dato;
+	private nodoArbol nodoAnterior;
+	private nodoArbol nodoSiguiente;
 		
+	nodoArbol(){
+		dato = 0;
+		nodoAnterior = 0;
+		nodoSiguiente = 0;
 	}
 	
-	public boolean getVacia(){
-		if(this.Entrada.length() == 0) {
-			return true;
-		}
-		return false;
+	public void setNodo(int dato){
+		this.dato = dato;
 	}
 	
-	public Integer getSalida() {
-		return this.Salida;
+	public void setNodoAnterior(int dato){
+		this.nodoAnterior = dato;
 	}
+	
+	public void setNodoSiguente(int dato){
+		this.nodoSiguiente = dato;
+	}
+	
+	public int getDato(){
+		return this.dato;
+	}
+	
+	public int getNodoAnterior(){
+		return this.nodoAnterior;
+	}
+	
+	public int getNodoSiguiente(){
+		return this.nodoSiguiente;
+	}
+	
 }
