@@ -1,7 +1,7 @@
 class nodoArbol {
 	private int dato;
-	private int nodoAnterior;
-	private int nodoSiguiente;
+	private nodoArbol nodoAnterior;
+	private nodoArbol nodoSiguiente;
 		
 	nodoArbol(){
 		dato = 0;
@@ -17,7 +17,7 @@ class nodoArbol {
 		this.nodoAnterior = dato;
 	}
 	
-	public void setNodoSiguente(int dato) {
+	public void setNodoSiguente(int dato){
 		this.nodoSiguiente = dato;
 	}
 	
