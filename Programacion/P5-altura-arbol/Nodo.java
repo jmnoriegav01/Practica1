@@ -4,9 +4,9 @@ class Nodo {
 	int puntero;
 	int altura;
 	
-	Nodo(String arboles,int ){
-		this.nodosHijos = nodosHijos;
+	Nodo(String arboles,int nodosHijos,int puntero, int altura){
 		this.arboles = arboles;
+		this.nodosHijos = nodosHijos;
 		this.puntero = puntero;
 		this.altura = altura;
 	}

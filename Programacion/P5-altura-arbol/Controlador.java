@@ -4,14 +4,15 @@ class Controlador {
 	int puntero;
 	Nodo n;
 	int altura;
+	int nodosHijos;
 	
-	Controlador(int arbol, String arboles, int puntero, Nodo n, int altura) {
+	Controlador(int arbol, String arboles, int puntero, Nodo n, int altura,int nodosHijos) {
 		this.arbol = arbol;
 		this.arboles = arboles;
 		this.puntero = puntero;
-		this.n = new Nodo();
 		this.altura = altura;
-		
+		this.nodosHijos = nodosHijos;
+		this.n = new Nodo(this.arboles,this.nodosHijos,this.puntero,this.altura);
 	}
 	
 	void setPuntero(int puntero){
@@ -19,12 +20,9 @@ class Controlador {
 	}
 	
 	void setNodo(Nodo n){
-		this.n = new Nodo(this.arboles,0,0);
+		this.n = new Nodo(this.arboles,0,0,0);
 	}
 	
-	Nodo getNodo(){
-		return this.nodo;
-	}
 
 	void setAltura(int altura){
 		this.altura = altura;
@@ -34,4 +32,5 @@ class Controlador {
 	String getArboles(){return this.arboles;}
 	int getPuntero(){return this.puntero;}
 	int getAltura(){return this.altura;}
+	Nodo getNodo() {return this.n;}
 }
