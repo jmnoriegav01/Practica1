@@ -4,80 +4,63 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Ejercicio 1</title>
     <style>
-        tr {
-            height: 50px;
-        }
-
-        .gris{
-            text-align: center;
-            background-color: gray;
-        }
-
-        .azul{
-            text-align: center;
-            background-color: blue;
-        }
-
-        .amarillo{
-            text-align: center;
-            background-color: yellow;
-        }
-
-        .rojo{
-            background-color: red;
-            color: white;
-
+        table {
+            font-size: 30px;
         }
     </style>
 </head>
 <body>
-    <h2>Ejercicio práctico con tablas</h2>
-    <table>
-        <tr>
-            <td colspan="3"></td>
-            <td colspan="2"></td>
-        </tr>
-        <tr>
-            <td class="rojo">Capacidad</td>
-            <td class="gris">2GB</td>
-            <td class="gris">4GB</td>
-            <td class="gris">8GB</td>
-            <td class="gris">32GB</td>
-            <td class="gris">2GB</td>
-        </tr>
-        <tr>
-            <td class="rojo">Colores</td>
-            <td>Blanco</td>
-            <td>
-                <ul>
-                    <li>Negro</li>
-                    <li>Rosa</li>
-                    <li>Dorado</li>
-                </ul>
-            </td>
-            <td>
-                Negro
-            </td>
-            <td>
-                <ul>
-                    <li>Negro</li>
-                    <li>Blanco</li>
-                </ul>
-            </td>
-        </tr>
-        <tr>   
-            <td class="rojo">Pantalla</td>
-            <td class="azul" colspan="3"><center>3 pulgadas</center></td>
-            <td colspan="2"><center>5 pulgadas</center></td>
-        </tr>
-        <tr>
-            <td class="rojo">Tiempo de carga</td>
-            <td>1 hora</td>
-            <td>5 horas</td>
-        </tr>
-        <tr>30 minutos para 75%</tr>
-    </table>
+    <center>
+        <h1>HORARIO HORARIO DE CLAS</h1>
+    </center>
+    <br>
+    <center>
+        <table border="1">
+            <tr>
+                <th>Horas</th>
+                <th>Lunes</th>
+                <th>Martes</th>
+                <th>Miércoles</th>
+                <th>Jueves</th>
+                <th>Viernes</th>
+            </tr>
+            <tr>
+                <td>8.00</td>
+                <td rowspan="2">Matemáticas</td>
+                <td>Lengua</td>
+                <td>Inglés</td>
+                <td>Ciencias</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>9.00</td>
+                <td>Historia</td>
+                <td>Ciencias</td>
+                <td>Matematicas</td>
+                <td>Lengua</td>
+            </tr>
+            <tr>
+                <td>10.00</td>
+                <td colspan="5"><center>RECREO</center></td>
+            </tr>
+            <tr>
+                <td>10:30</td>
+                <td>Inglés</td>
+                <td rowspan="2">Ciencias</td>
+                <td>Matematicas</td>
+                <td>Lengua</td> 
+                <td>Historia</td>   
+            </tr>
+            <tr>
+                <td>11:30</td>
+                <td>Historia</td>
+                <td>Ciencias</td>
+                <td>Matematicas</td>
+                <td>Inglés</td>
+            </tr>
+        </table>
+    </center>   
 </body>
 </html>
