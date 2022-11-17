@@ -4,23 +4,23 @@
 
 #Diagrama 1
 
-![Diagrama 1](../Imagenes/01-Diagrama.jpg)
+![Diagrama 1](./img/01-Diagrama.jpg)
 
-![Diagrama 2](../Imagenes/02-Diagrama.jpg)
+![Diagrama 2](./img/02-Diagrama.jpg)
 
-![Diagrama 3](../Imagenes/03-Diagrama.jpg)
+![Diagrama 3](./img/03-Diagrama.jpg)
 
-![Diagrama 4](../Imagenes/04-Diagrama.jpg)
+![Diagrama 4](./img/04-Diagrama.jpg)
 
-![Diagrama 5](../Imagenes/05-Diagrama.jpg)
+![Diagrama 5](./img/05-Diagrama.jpg)
 
-![Diagrama 6](../Imagenes/06-Diagrama.jpg)
+![Diagrama 6](./img/06-Diagrama.jpg)
 
-![Diagrama 7](../Imagenes/07-Diagrama.jpg)
+![Diagrama 7](./img/07-Diagrama.jpg)
 
-![Diagrama 8](../Imagenes/08-Diagrama.jpg)
+![Diagrama 8](./img/08-Diagrama.jpg)
 
-![Diagrama 9](../Imagenes/09-Diagrama-Completo.jpg)
+![Diagrama 9](./img/09-Diagrama-Completo.jpg)
 
 
 # Cuestionario de Preguntas
