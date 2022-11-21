@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Posicionamiento</title>
+    <style>
+        body{
+            text-align: center;
+        }
+
+        /*todos los bordes tomarán estos estilos */
+
+        * {
+            border: 4px solid;
+            margin: 20px;
+            
+        }
+
+        h1, h2 {
+            background-color: pink;
+        }
+
+        a {
+            background-color: yellow;
+        }
+
+        #primero_izquierda {
+            position: absolute;
+            top: 30px;
+        }
+
+        #primero_derecha {
+            position: relative;
+            top: 30px;
+        }
+    </style>
+</head>
+<body>
+    <h1>BIENVENIDO A CSS</h1>
+    <h2>Ejemplos de Posicionamiento</h2>
+    <p>
+        PARRAFO 1:
+        <a href="#" id="primero_izquierda">Enlace 1</a>
+        <a href="#" id="primero_centro">Enlace 2</a>
+    </p>
+    <p>
+        PARRAFO 2:
+        <a href="#" id="primero_izquierda">Enlace 1</a>
+        <a href="#" id="primero_centro">Enlace 2</a>
+        <a href="#" id="primero_derecha">Enlace 3</a>
+    </p>
+</body>
+</html>
