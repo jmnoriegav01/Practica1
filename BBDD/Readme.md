@@ -12,4 +12,5 @@
 	   4. **3FN**: similar al anterior para 3FN, resaltando el global de tablas finales.
 
 ## DONE
-+
++ P2 Modelo ER: nota 3
++ P2 Modelo
