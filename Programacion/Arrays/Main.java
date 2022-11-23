@@ -1,9 +1,8 @@
-import java.util.Scanner;
+
 
 class Main {
 	public static void main(String[] args) {
 		
-		Scanner teclado = new Scanner(System.in);
 		int[] vector = {1,5,9,3,45,23,45,12,87,9,6};
 		int[] vectorFinal = new int[vector.length-1];	
 		int elemento;
@@ -24,8 +23,7 @@ class Main {
 		}
 		System.out.print("]");
 	
-		System.out.println("\nElemento a borrar");
-		elemento = teclado.nextInt();
+		LeerEntrada elemento = new 
 		
 		primeralinea = true;
 		
