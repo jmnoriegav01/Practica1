@@ -2,46 +2,19 @@ class Nodo {
 	int nodosHijos;
 	String arboles;
 	int puntero;
-	int altura;
+	int alturaPadre;
 	
-	Nodo(String arboles,int nodosHijos,int puntero, int altura){
+	Nodo(String arboles,int puntero, int alturaPadre){
 		this.arboles = arboles;
-		this.nodosHijos = nodosHijos;
 		this.puntero = puntero;
-		this.altura = altura;
-	}
-	
-	void setNodosHijos(int nodosHijos){
-		this.nodosHijos = nodosHijos;
-		
-	}
-	
-	void setArboles(String arboles){
-		this.arboles = arboles;
-	}
-	
-	void setPuntero(int puntero){
-		this.puntero = puntero;
-	}
-	
-	void setAltura(int altura){
-		this.altura = altura;
-	}
-	
-	int getNodosHijos(){
-		return this.nodosHijos;
-	}
-	
-	String getArboles(){
-		return this.arboles;
-	}
-	
-	int getPuntero(){
-		return this.puntero;
+		this.alturaPadre = alturaPadre;
 	}
 	
 	int getAltura(){
-		return this.altura;
+		return this.alturaPadre;
 	}
-	
+
+	int getPuntero(){
+		return this.puntero;
+	}
 }
