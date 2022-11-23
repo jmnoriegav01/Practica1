@@ -33,3 +33,5 @@ Jose María Noriega Vázquez
 ## 7. ¿Cuándo se ha hecho?
 Cuando me he enterado de lo que había que hacer y como había que hacerlo
 
+## Captura 
+![Captura](./img/Captura1.png)
