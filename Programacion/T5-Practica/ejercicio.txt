@@ -1,0 +1,13 @@
+2 4 0 0 2 0 1 0 0 0 la forma del arbol
+nodo 2 - altura 1 puntero 0
+nodo 4 - altura 2 puntero 2
+nodo 0 - altura 3 puntero 4
+nodo 0 - altura 3 puntero 6
+nodo 2 - altura 3 puntero 8
+nodo 0 - altura 3 puntero 10
+nodo 1 - altura 4 puntero 12
+nodo 0 - altura 5 puntero 14
+nodo 0 - altura 5 puntero 16
+nodo 0 - altura 5 puntero 18
+
+
