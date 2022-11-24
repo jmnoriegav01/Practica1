@@ -1,4 +1,4 @@
-# Práctica 3 - JavaDoc
+# Práctica 2 - JavaDoc
 
 # Cuestionario de Preguntas
 
@@ -6,7 +6,7 @@
 Vamos a practicar con la herramienta JavaDoc, para ello hemos implementado la clase HolaMundo y con la herramienta JavaDoc la vamos a documentar.
              
 ## 2. ¿Con qué lo vamos a hacer?
-Con la herramienta JavaDoc del JDS de Java
+Con la herramienta JavaDoc del JDK de Java
 
 ## 3. ¿Cómo se ha hecho?
     Primero, con el notepad++ hemos construido la Clase HolaMundo.java.
@@ -29,7 +29,7 @@ En clase y en casa
 
 ## 6. ¿Quién lo ha hecho?
 Jose María Noriega Vázquez
-
+()
 ## 7. ¿Cuándo se ha hecho?
 Cuando me he enterado de que había que hacer en la práctica la he hecho sin problemas, es una práctica muy sencilla.
 

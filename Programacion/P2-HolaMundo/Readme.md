@@ -1,5 +1,6 @@
-![Captura](Captura.png)
+# P2-HolaMundo
 
+![Captura](Captura.png)
 
 # Cuestionario de Preguntas
 ## 1. ¿Qué vamos a hacer?

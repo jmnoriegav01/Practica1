@@ -4,9 +4,7 @@
 
 ## 1. ¿Qué vamos a hacer?
 
-	La Práctica consiste en implementar un árbol general de cada nodo es variable, desde cero en el caso de una hoja, 
-hasta cierto número máximo que se llama grado del árbol. La altura de una hoja es 1, si el árbol tiene hijos entonces
-su altura es 1 más el máximo de alturas de sus hijos. 
+La Práctica consiste en implementar un árbol general de cada nodo es variable, desde cero en el caso de una hoja, hasta cierto número máximo que se llama grado del árbol. La altura de una hoja es 1, si el árbol tiene hijos entonces su altura es 1 más el máximo de alturas de sus hijos.
 
 ## 2. ¿Con qué lo vamos a hacer?
 
@@ -14,7 +12,7 @@ su altura es 1 más el máximo de alturas de sus hijos.
 	
 		
 	y la Clase Nodo:
-					
+
 ## 3. ¿Cómo se ha hecho?
 
 
@@ -30,5 +28,5 @@ Jose María Noriega Vázquez
 ## 7. ¿Cuándo se ha hecho?
 Cuando me he enterado de lo que había que hacer y como había que hacerlo
 
-## Captura 
+## Captura
 ![Captura](./img/Captura1.png)
