@@ -2,16 +2,16 @@ class Nodo {
 	int nodosHijos;
 	String arboles;
 	int puntero;
-	int alturaPadre;
+	int altura;
 	
-	Nodo(String arboles,int puntero, int alturaPadre){
-		this.arboles = arboles;
+	Nodo(String arbol, int puntero, int alturaPadre){
+		this.arboles = arbol;
 		this.puntero = puntero;
-		this.alturaPadre = alturaPadre;
+		this.altura = alturaPadre;
 	}
-	
+
 	int getAltura(){
-		return this.alturaPadre;
+		return this.altura;
 	}
 
 	int getPuntero(){

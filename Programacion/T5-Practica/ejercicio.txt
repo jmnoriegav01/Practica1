@@ -9,5 +9,3 @@ nodo 1 - altura 4 puntero 12
 nodo 0 - altura 5 puntero 14
 nodo 0 - altura 5 puntero 16
 nodo 0 - altura 5 puntero 18
-
-

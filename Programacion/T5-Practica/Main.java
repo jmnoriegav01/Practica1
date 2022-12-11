@@ -3,58 +3,38 @@ import java.util.Scanner;
 public class Main {
 
 	public static void main(String[] args) {
-			int i;
-			String arboles;
-			int puntero;
-			int altura;
-			int narboles;
-
-	
-			char nodosHijos;
-			int nHijos;
+		int arboles = 0;
+		int puntero = 0;
+		int narboles = 0;
+		char nodosHijos = 0;
+		int nHijos = 0;
+		int altura = 0;
+		
+		Scanner sn = new Scanner(System.in);
+		sn.useDelimiter("\n");
 			
-			Scanner sn = new Scanner(System.in);
-	 	 	sn.useDelimiter("\n");
-	 	 		
-	  		Scanner entrada = new Scanner(System.in);
-	  		
-	  		System.out.println("Cuantos arboles quieres");
-	  		narboles = entrada.nextInt();	
-	  				     	
-	  		for(i=0;i<=narboles;i++){
-		  			System.out.println("\nDescribe el arbol numero " + (i+1));
-		 			String cadena = sn.next();
-		 			
-		   			Nodo n = new Nodo(cadena,0,0);
-		  					   		 	
-		   		 	altura = n.getAltura();	
-		   		 	puntero = n.getPuntero();
+		Scanner entrada = new Scanner(System.in);
+		
+		System.out.println("Cuantos arboles quieres");
+		narboles = entrada.nextInt();	
+						
+		for(int i = 0; i < narboles; i++){
+			System.out.println("\nDescribe el arbol numero " + (i+1));
+			String cadena = sn.next();
+
+			if(cadena.length() == 1){
+				System.out.println("\n\nLa altura del arbol es " + altura);
+			}
+			else {
+				for (int k = 0; k < cadena.length(); k = k + 2) {
+					nodosHijos = cadena.charAt(k);
+					nHijos = Character.getNumericValue(nodosHijos);
 					
-		   		   	for (int k=0;k<(cadena.length()/2)+1;k++) {
-		   				
-			   				nodosHijos = cadena.charAt(n.getPuntero());
-			   				nHijos = Character.getNumericValue(nodosHijos);
-			   				altura = n.getAltura();
-							altura++;
-																				
-							
-							
-							n = new Nodo(cadena,puntero,altura);
-			   			    
-			   					
-			
-							String salida = "nodo " + nodosHijos + " - ";
-							       salida+= "altura " + n.getAltura() + " - ";
-							       salida+= "puntero " + n.getPuntero() + "\n";
-							       
-							System.out.print(salida);    
-
-							puntero = n.getPuntero();
-							puntero = puntero + 2;
-			
-							
-					}
-	   		}
-	  	}
+					String salida = "Nodo: " + nodosHijos + " - Altura: " + altura + " - Puntero: " + k;
+					System.out.println(salida);
+				}
+			}
+		}
+	}
 }
 
