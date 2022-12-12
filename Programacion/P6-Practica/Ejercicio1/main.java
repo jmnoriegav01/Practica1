@@ -8,8 +8,8 @@ class main {
     
     public static void main(String[] args) {
 
-        String[] alumnos = {"Alumno1", "Alumno2", "Alumno3", "Alumno4"};
-        String[] modulos = {"Modulo1", "Modulo2", "Modulo3", "Modulo4"};
+        String[] alumnos = {"Jose Maria", "Juan\t", "Pedro\t", "Juan Jose"};
+        String[] modulos = {"Programacion", "Sistemas", "BBDD\t", "L. Marcas"};
          
         int[][] notas = {
                             {5, -1, 10, 3},
@@ -25,25 +25,25 @@ class main {
         int NumeroDeModulos = 0;
         int NumeroDeModulosAlumno = 0;
       
-
+        System.out.print("\t");
         for(int i = 0; i < modulos.length; i++){
-            System.out.print("\t\t\t" + modulos[i]);
+            System.out.print("\t" + modulos[i]);
         }
 
-        System.out.print("\t\t\tMedia\n\n");
+        System.out.print("\tMedia\n\n");
 
         for(int i = 0; i < alumnos.length; i++){
             
             NumeroDeModulos = 0;
             sumaModulo = 0;
-            System.out.print(alumnos[i] + "\t\t\t");
+            System.out.print(alumnos[i] + "\t");
         
             for(int j = 0; j < notas.length; j++){
                 if(notas[j][i] == -1) {
-                    System.out.print(ANSI_RED + "SIN MATRICULAR\t\t" + ANSI_RESET);    
+                    System.out.print(ANSI_RED + "SIN MATRICULAR\t" + ANSI_RESET);    
                 } 
                 else {
-                    System.out.print(notas[j][i] + "\t\t\t");
+                    System.out.print(notas[j][i] + "\t\t");
                     sumaModulo = sumaModulo + notas[j][i];
                     NumeroDeModulos++;
                 }
@@ -55,7 +55,7 @@ class main {
     
         }
 
-        System.out.print("MEDIA POR MODULOS\t");
+        System.out.print(ANSI_BLUE + "MEDIA MODULOS\t" + ANSI_RESET);
         
         int suma = 0;
         int sumaParaMedia = 0;
@@ -69,7 +69,7 @@ class main {
                     NumeroDeModulosAlumno++;
                 }
             }
-            System.out.print(suma / NumeroDeModulosAlumno + "\t\t\t");
+            System.out.print(ANSI_BLUE + (suma / NumeroDeModulosAlumno) + ANSI_RESET + "\t\t");
             sumaParaMedia = sumaParaMedia + (suma / NumeroDeModulosAlumno);
         }
 
